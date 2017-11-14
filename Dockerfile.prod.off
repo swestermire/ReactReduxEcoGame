@@ -1,0 +1,2 @@
+FROM swestermire/node-vim-nginx
+EXPOSE 80
