@@ -1,0 +1,16 @@
+.test{
+    background-color: rgb(245,245,245);
+}
+
+.test2{
+    background-color: pink;
+}
+
+/* needed to have react-bootstrap-slider size correctly */
+.slider {
+    width: 100% !important;
+}
+
+.std-spacing{
+    margin-top:100px;
+}

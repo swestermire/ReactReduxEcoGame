@@ -1,0 +1,27 @@
+TODO-1)
+    File: game_date_component.js:
+    Method: MapDispatchToProps -> updateLumberMarket:
+    10-7-2017: Right now mapDispatchToProps is specifically updating one market.
+    This should really be abstracted to update ALL markets.
+
+    We could have a dispatched action dispatch multiple actions.
+    Going to setup one action that goes through all actions
+
+    What is process flow:
+    Player's submit their demand and supply tickets -> WORLD MARKET ---
+    -> (end of day) everything is recalculated
+
+
+    (comment: Look into "Object Spread Operator"???)
+    (comment: Immutable Datastructures???: Immutable.js)
+    Ideally this is how it should be (Creating resources reducer)
+    Resources Object:
+        name : {name,
+                 price,
+                 supply,
+                 demand}
+
+    Created a Resources reducer (reducers/resources) using the Resource model above.
+
+TODO-2) Hook up actions to newly created reducer.
+        Going to update our action (actions/market) to connect to todo-1 resoures reducer.

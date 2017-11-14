@@ -1,0 +1,55 @@
+1) Upgrade to IndexedDB Promised (variation of idb with promises).
+2) Check for IndexedDB support and, if browser is not supported, notify user to use
+an appropriate browser.
+
+1) General redux state for objects. [x]
+   Create a Resources reducer.
+    - Created a redux state with resource OBJECTS
+    - resource.name {
+        name,
+        price,
+        supply,
+        demand
+     }
+    The advantage is that we can pull redux state for a resource, get it's
+    object representation and it'll have all the pertinent information we want.
+    Additionally, this makes updating resources easier since theirs one point
+    of entry.
+
+    Not sure if this is correct?  But redux doesn't seem to care.
+
+2) Hook up actions to newly created reducer. [x]
+   Updated actions/market to dispatch updated resource states to our
+   reducer/resources.  It would be nice if there was a better way to
+   arbitrarily have a resource object and have an action/process know
+   which object to update specifically.
+
+3) Refactored indexDB class with start up data and config file. [partial]
+
+4) Complete purchase and sale tickets in indexedDB
+
+5) Calculate/process supply and demand model prior to dispatching updated resource
+   redux state.
+
+   Design Decision: Actions should not be responsible for data processing, only
+   returning functions actions to update redux state
+
+6) Create AI players that will buy and sell resources
+
+7) Need to create a indexDB table of resources
+
+8) Look into react-bootstrap-table for certain views
+
+May want to think about...
+
+1)  For reducers/resources, may want an active resources list,
+    so that we are not searing DB for irrelevant resources.
+
+2) May want to separate resource handling out of the game_date change
+   Instead, game date change should call independent functions to carry out specific
+   tasks.  It kindaof already does this anyways.  I feel like what's in place right now
+   is not the right approach.
+
+3) Probably should think about adding schema to IndexedDB via .createIndex()
+
+4) May want to consider building error class... maybe? It's so simple right now tho.

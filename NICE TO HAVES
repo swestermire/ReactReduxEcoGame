@@ -1,0 +1,6 @@
+1)
+TODO-2) Hook up actions to newly created reducer.
+Updated actions/market to dispatch updated resource states to our
+reducer/resources.  It would be nice if there was a better way to
+arbitrarily have a resource object and have an action/process know
+which object to update specifically.
