@@ -35,6 +35,7 @@ ReactDOM.render(
                         <Col xs={0} md={8} lg={8}></Col>
                         <Col xs={12} md={4} lg={4}>
                             <GameDate />
+                            <p> this is updated! </p>
                             <GameSpeedSlider />
                         </Col>
                     </Row>
