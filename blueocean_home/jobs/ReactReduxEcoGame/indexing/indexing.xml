@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-BranchIndexing plugin="branch-api@2.0.15">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.2">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/pipelines/</mappedUrl>
+        <modelObject class="hudson.model.Queue$WaitingItem">
+          <actions>
+            <hudson.model.CauseAction reference="../../../../../hudson.model.CauseAction"/>
+            <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../../../.."/>
+          </actions>
+          <id>1</id>
+          <task class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" plugin="workflow-multibranch@2.16">
+            <actions/>
+            <properties>
+              <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanCredentialsProvider_-FolderPropertyImpl plugin="blueocean-pipeline-scm-api@1.3.2">
+                <domain plugin="credentials@2.1.16">
+                  <name>blueocean-folder-credential-domain</name>
+                  <description>Blue Ocean Folder Credentials domain</description>
+                  <specifications/>
+                </domain>
+                <user>admin</user>
+                <id>github</id>
+              </io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanCredentialsProvider_-FolderPropertyImpl>
+            </properties>
+            <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.0.15">
+              <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+            </folderViews>
+            <healthMetrics>
+              <com.cloudbees.hudson.plugins.folder.health.WorstChildHealthMetric plugin="cloudbees-folder@6.2.1">
+                <nonRecursive>false</nonRecursive>
+              </com.cloudbees.hudson.plugins.folder.health.WorstChildHealthMetric>
+            </healthMetrics>
+            <icon class="jenkins.branch.MetadataActionFolderIcon" plugin="branch-api@2.0.15">
+              <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+            </icon>
+            <orphanedItemStrategy class="com.cloudbees.hudson.plugins.folder.computed.DefaultOrphanedItemStrategy" plugin="cloudbees-folder@6.2.1">
+              <pruneDeadBranches>true</pruneDeadBranches>
+              <daysToKeep>-1</daysToKeep>
+              <numToKeep>-1</numToKeep>
+            </orphanedItemStrategy>
+            <triggers/>
+            <disabled>false</disabled>
+            <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@2.0.15">
+              <data>
+                <jenkins.branch.BranchSource>
+                  <source class="org.jenkinsci.plugins.github_branch_source.GitHubSCMSource" plugin="github-branch-source@2.3.1">
+                    <id>e8472d88-a344-4f5d-b684-364e1539a2f5</id>
+                    <apiUri>https://api.github.com</apiUri>
+                    <credentialsId>github</credentialsId>
+                    <repoOwner>swestermire</repoOwner>
+                    <repository>ReactReduxEcoGame</repository>
+                    <traits>
+                      <org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
+                        <strategyId>3</strategyId>
+                      </org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
+                    </traits>
+                  </source>
+                </jenkins.branch.BranchSource>
+              </data>
+              <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+            </sources>
+            <factory class="org.jenkinsci.plugins.workflow.multibranch.WorkflowBranchProjectFactory">
+              <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+              <scriptPath>Jenkinsfile</scriptPath>
+            </factory>
+          </task>
+          <inQueueSince>1510767853668</inQueueSince>
+          <timestamp>
+            <time>1510767853668</time>
+            <timezone>GMT</timezone>
+          </timestamp>
+        </modelObject>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../io.jenkins.blueocean.service.embedded.BlueOceanUrlAction"/>
+  </actions>
+  <result>
+    <name>SUCCESS</name>
+    <ordinal>0</ordinal>
+    <color>BLUE</color>
+    <completeBuild>true</completeBuild>
+  </result>
+  <durations>
+    <long>1677</long>
+  </durations>
+  <timestamp>1510767853850</timestamp>
+  <duration>1677</duration>
+</jenkins.branch.MultiBranchProject_-BranchIndexing>

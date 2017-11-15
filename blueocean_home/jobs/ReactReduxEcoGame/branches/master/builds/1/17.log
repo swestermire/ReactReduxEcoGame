@@ -1,0 +1,3 @@
+[ReactReduxEcoGame_master-A5ZZKO4WXECR57DCRRPS35M3CAXDDT34YXRH6RFDSBLFPA654WEA] Running shell script
++ docker inspect -f . node:6.11.0
+.
