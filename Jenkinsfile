@@ -1,7 +1,8 @@
 pipeline {
     agent {
-        docker{
-         pull "node:6.11.0"
+        docker {
+            image 'node:6-alpine'
+            args '-p 3000:3000'
         }
     }
     stages {
