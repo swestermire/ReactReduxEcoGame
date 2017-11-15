@@ -1,5 +1,0 @@
-[ReactReduxEcoGame_master-A5ZZKO4WXECR57DCRRPS35M3CAXDDT34YXRH6RFDSBLFPA654WEA] Running shell script
-+ docker pull node:6.11.0
-6.11.0: Pulling from library/node
-Digest: sha256:19de5403244485481fa1c2ddf47d47debabbe8094a80fb3ccab082b8ee9e0763
-Status: Image is up to date for node:6.11.0
