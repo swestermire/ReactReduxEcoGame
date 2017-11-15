@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6817cea7-2b1d-4a4f-b016-8091a11f6993" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bundle.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -283,6 +293,11 @@
               <item name="reactReduxEcoGame" type="462c0819:PsiDirectoryNode" />
               <item name=".elasticbeanstalk" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reactReduxEcoGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactReduxEcoGame" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -311,6 +326,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/reducers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -590,13 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/game_window_component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/financials.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -971,6 +980,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding />
         </state>
       </provider>
