@@ -112,7 +112,7 @@ var supportedModes = {
     D:           ["d|di"],
     Dart:        ["dart"],
     Diff:        ["diff|patch"],
-    Dockerfile:  ["^Dockerfile"],
+    Dockerfile:  ["^Dockerfile.prod.off"],
     Dot:         ["dot"],
     Dummy:       ["dummy"],
     DummySyntax: ["dummy"],
