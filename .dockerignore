@@ -1,5 +1,6 @@
 # Elastic Beanstalk Files
-blueocean_home/
+venv/*
+blueocean_home/*
 .elasticbeanstalk/*
 .git
 .gitignore
