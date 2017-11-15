@@ -1,6 +1,7 @@
 venv/
 node_modules/
 ec2-user@13.58.115.161/
+blueocean_home/
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*

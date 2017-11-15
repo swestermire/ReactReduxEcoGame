@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6817cea7-2b1d-4a4f-b016-8091a11f6993" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/durable-task.jpi" afterPath="$PROJECT_DIR$/blueocean_home/plugins/durable-task.jpi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/WEB-INF/lib/durable-task.jar" afterPath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/WEB-INF/lib/durable-task.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/junit.jpi" afterPath="$PROJECT_DIR$/blueocean_home/plugins/junit.jpi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/junit/WEB-INF/lib/junit.jar" afterPath="$PROJECT_DIR$/blueocean_home/plugins/junit/WEB-INF/lib/junit.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job.jpi" afterPath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job.jpi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/WEB-INF/lib/workflow-job.jar" afterPath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/WEB-INF/lib/workflow-job.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jenkinsfile" afterPath="$PROJECT_DIR$/Jenkinsfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/logs/tasks/Download metadata.log" afterPath="$PROJECT_DIR$/blueocean_home/logs/tasks/Download metadata.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/META-INF/maven/org.jenkins-ci.plugins/durable-task/pom.properties" afterPath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/META-INF/maven/org.jenkins-ci.plugins/durable-task/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/META-INF/maven/org.jenkins-ci.plugins/durable-task/pom.xml" afterPath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/META-INF/maven/org.jenkins-ci.plugins/durable-task/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/WEB-INF/licenses.xml" afterPath="$PROJECT_DIR$/blueocean_home/plugins/durable-task/WEB-INF/licenses.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/junit/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/blueocean_home/plugins/junit/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.properties" afterPath="$PROJECT_DIR$/blueocean_home/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.xml" afterPath="$PROJECT_DIR$/blueocean_home/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/junit/WEB-INF/licenses.xml" afterPath="$PROJECT_DIR$/blueocean_home/plugins/junit/WEB-INF/licenses.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-job/pom.properties" afterPath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-job/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-job/pom.xml" afterPath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-job/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/WEB-INF/licenses.xml" afterPath="$PROJECT_DIR$/blueocean_home/plugins/workflow-job/WEB-INF/licenses.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueocean_home/users/admin/config.xml" afterPath="$PROJECT_DIR$/blueocean_home/users/admin/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,21 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="390">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -258,11 +237,11 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.elasticbeanstalk/config.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Dockerfile.prod.off" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -989,14 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/properties.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1010,8 +981,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="390">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
