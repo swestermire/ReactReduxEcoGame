@@ -12,12 +12,5 @@ pipeline {
         sh 'npm install'
       }
     }
-    stage('EB AWS Deployment') {
-      steps {
-        sh '''virtualenv .
-pip install awsebcli
-eb create'''
-      }
-    }
   }
 }
