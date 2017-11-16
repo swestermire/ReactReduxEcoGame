@@ -14,7 +14,8 @@ pipeline {
     }
     stage('EB AWS Deployment') {
       steps {
-        sh '''pip install awsebcli
+        sh '''python
+pip install awsebcli
 eb create'''
       }
     }
